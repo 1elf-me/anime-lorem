@@ -1,0 +1,22 @@
+{
+    "name": "1elf-me/anime-lorem",
+    "description": "Anime placeholder photos",
+    "type": "project",
+    "require": {
+        "php": "7.*",
+        "intervention/image": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "1elf",
+            "email": "hello@1elf.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AnimeLorem\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
